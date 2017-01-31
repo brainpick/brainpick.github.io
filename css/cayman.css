@@ -78,9 +78,9 @@ a {
       font-size: 2.5rem; } }
 
 .project-tagline {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-weight: normal;
-  opacity: 0.7; }
+  opacity: 0.9; }
   @media screen and (min-width: 64em) {
     .project-tagline {
       font-size: 1.25rem; } }
@@ -92,6 +92,7 @@ a {
       font-size: 1rem; } }
 
 .main-content {
+  text-align: center;
   word-wrap: break-word; }
   .main-content :first-child {
     margin-top: 0; }
@@ -110,18 +111,19 @@ a {
       padding: 2rem 1rem;
       font-size: 1rem; } }
   .main-content img {
-    max-width: 100%; }
+    max-width: 100%;
+    padding: 2rem; }
   .main-content h1,
   .main-content h2,
   .main-content h3,
   .main-content h4,
   .main-content h5,
   .main-content h6 {
-    text-align: center,
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
     font-weight: normal;
-    color: #159957; }
+    color: #159957; 
+  }
   .main-content p {
     margin-bottom: 1em; }
   .main-content code {
@@ -180,7 +182,12 @@ a {
       content: normal; }
   .main-content ul,
   .main-content ol {
-    margin-top: 0; }
+    margin-top: 0;
+    list-style: none;
+    text-align: center;
+    padding: 0;}
+  .main-content ol li {
+    margin-top: 2rem;}
   .main-content blockquote {
     padding: 0 1rem;
     margin-left: 0;
@@ -219,24 +226,3 @@ a {
     margin: 1rem 0;
     background-color: #eff0f1;
     border: 0; }
-
-.site-footer {
-  padding-top: 2rem;
-  margin-top: 2rem;
-  border-top: solid 1px #eff0f1; }
-  @media screen and (min-width: 64em) {
-    .site-footer {
-      font-size: 1rem; } }
-  @media screen and (min-width: 42em) and (max-width: 64em) {
-    .site-footer {
-      font-size: 1rem; } }
-  @media screen and (max-width: 42em) {
-    .site-footer {
-      font-size: 0.9rem; } }
-
-.site-footer-owner {
-  display: block;
-  font-weight: bold; }
-
-.site-footer-credits {
-  color: #819198; }
